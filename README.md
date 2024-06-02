@@ -1,5 +1,9 @@
 # Trabalho de banco de dados nosql - API Rest integrado ao mongodb
 
+### Link do github
+
+
+
 ### Integrantes:
 
 Gabriel Campari Correia
@@ -23,9 +27,9 @@ Por ser escolhido o node e JS para a criação do projeto, iremos iniciar utiliz
 
 ~~~terminal
 npm init -y 
-~~~ 
+~ 
 
-Após isso, foi criado nosso `server.js` para iniciarmos a criação do servidor local para uso de comandos http solicitando e enviando informações para o banco de dados. 
+Após isso, foi criado nosso server.js para iniciarmos a criação do servidor local para uso de comandos http solicitando e enviando informações para o banco de dados. 
 
 Aqui iniciamos nosso servidor HTTP para solicitação e envio de dados online, através de requisições e resposta. Utilizamos a porta 3000 como endereço local para desenvolver a aplicação, assim solicitando requisições e enviando dados. 
 
@@ -34,11 +38,11 @@ Para iniciarmos nosso servidor, utilizamos o nodemon para assim ele gerenciar o 
 Para instalação:
 ~~~terminal
 npm install nodemon@3.0.1
-~~~ 
+~ 
 
-Assim, para iniciar o servidor basta utilizar o comando `npm run dev`. 
+Assim, para iniciar o servidor basta utilizar o comando npm run dev. 
 
-Após isso, utilizamos o framework Express(Express é um framework web para Node.js que simplifica o desenvolvimento de aplicações web e APIs). Para isso iremos instalar no terminal do vscode usando o comando `npm install express@4.18.1`. 
+Após isso, utilizamos o framework Express(Express é um framework web para Node.js que simplifica o desenvolvimento de aplicações web e APIs). Para isso iremos instalar no terminal do vscode usando o comando npm install express@4.18.1. 
 
 >Por que o express? Pois ele é o servidor mais famoso de Node.js em uso de servidores HTTP assim utilizaremos ele para melhor funcionalidade e eficâcia do código. 
 
@@ -52,7 +56,7 @@ Para instalar em sua máquina e configurar junto de sua API, utilize o seguinte 
 
 ~~~terminal
 npm install mongodb
-~~~ 
+~ 
 
 Será liberado um caminho para integração do banco e você deverá substituir a senha do admin apenas, o nosso utiliza:  
 
@@ -73,6 +77,8 @@ Após isso deve se instalar:
 
 ~~~terminal
 npm install mongoose@7.3.4
-~~~ 
+~ 
 
 Assim se estabelecendo uma conexão com o banco de dados e a API através do dbConnect.js e as funções de conexão do mongoose. Para criarmos valores e coleções foi inserido em Usuario.js e Livro.js com seus tipos e requisitos. E as rotas foram colocadas nas pasta routes, liberando espaço em apps e melhorando o código. 
+
+Após isso sempre que iniciar o npm run dev, o Servidor estará online e a conexão será estabelecida assim estando pronto para operação!
